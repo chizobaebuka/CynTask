@@ -4,6 +4,7 @@ import Clarifion from "../components/Clarifion"
 import Hero from "../components/Hero"
 import Steps from "../components/Steps"
 import Main from '../components/Main';
+import Footer from "../components/Footer"
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Hero />
             <Steps />
             <Main />
+            <Footer />
         </div>
     )
 }
