@@ -2,6 +2,8 @@ import React from "react"
 import Navbar from "../components/Navbar"
 import Clarifion from "../components/Clarifion"
 import Hero from "../components/Hero"
+import Steps from "../components/Steps"
+import Main from '../components/Main';
 
 const Home = () => {
     return (
@@ -9,6 +11,8 @@ const Home = () => {
             <Navbar />
             <Clarifion />
             <Hero />
+            <Steps />
+            <Main />
         </div>
     )
 }
