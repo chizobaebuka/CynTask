@@ -4,7 +4,7 @@ import lock1 from "../assets/lock1.png"
 
 const Footer = () => {
     return (
-        <div className="px-24 bg-[#252F3D] h-24 flex flex-row items-center justify-between">
+        <div className="hidden md:flex px-24 bg-[#252F3D] h-24 flex flex-row items-center justify-between">
             <div className="flex flex-row gap-4 ">
                 <p className="text-lg text-[#FFFFFF]">Copyright (c) 2023</p>
                 <img src={line} alt="" />

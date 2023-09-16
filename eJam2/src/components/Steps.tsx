@@ -5,8 +5,8 @@ import step4 from "../assets/step4.png"
 
 const Steps = () => {
     return (
-        <div className="flex justify-between px-24 mt-12">
-            <div className="flex flex-row items-center text-xl gap-2">
+        <div className="flex md:flex hidden justify-between px-24 mt-12">
+            <div className="flex items-center text-xl gap-2">
                 <img src={step} alt="" />
                 <p>Step 1 : Cart Review</p>
             </div>

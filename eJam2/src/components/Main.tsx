@@ -15,7 +15,7 @@ import verify from "../assets/verify 1.png"
 
 const Main = () => {
     return (
-        <div className="grid grid-cols-2 mt-3 bg-[#FAFAFA] mx-24 border-r-8">
+        <div className="hidden md:grid grid-cols-2 mt-3 bg-[#FAFAFA] mx-24 border-r-8">
             <div className="p-8 border-r-2">
                 <img src={image4} alt="" />
                 <div className="bg-[#FFFFFF] mt-4 p-4 rounded-lg">
